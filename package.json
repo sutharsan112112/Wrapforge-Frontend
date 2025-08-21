@@ -29,6 +29,9 @@
     "stripe": "^18.3.0",
     "three": "^0.177.0"
   },
+  "engines": {
+    "node": "18.x"
+  },
   "devDependencies": {
     "@eslint/js": "^9.25.0",
     "@types/react": "^19.1.2",
