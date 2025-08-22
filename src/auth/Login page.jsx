@@ -22,7 +22,7 @@ const Login = ({ onClose }) => {
     setPasswordError('');
 
     try {
-      const res = await axios.post(`${import.meta.env.VITE_API_URL}auth/login`, formData);
+      const res = await axios.post(`${import.meta.env.VITE_API_URL}/auth/login`, formData);
 
       if (res.status === 200) {
         const { token, user } = res.data;
